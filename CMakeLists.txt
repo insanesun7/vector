@@ -19,4 +19,3 @@ set(SOURCES src/vector.cpp)
 add_executable(test_vector tests/test_vector.cpp ${SOURCES})
 
 add_test(NAME ${PROJECT_NAME} COMMAND test_vector)
-
